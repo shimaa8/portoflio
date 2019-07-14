@@ -1,0 +1,1126 @@
+<html>
+<head>
+     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/index_style.css"/>
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+ <!--   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"> -->
+    
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #F9D302;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+    </head>
+<body>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+               <i id="scroll" class="fas fa-arrow-circle-up"></i>
+</button>
+   <nav class="navbar navbar-light fixed-top">
+  <a class="navbar-brand"><img  class="logo" src="img/logo-dark.png" /></a>
+  <form class="form-inline">
+    <div>
+      <div>
+      <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#services">SERVICES</a>
+    <a href="#education">EDUCATION</a>
+    <a href="#work">WORK</a>
+    <a href="#">CLIENT'S</a>
+    <a href="#">BLOG</a>
+     <a href="#">CONTACT</a>
+
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+      
+      </div>
+  </form>
+</nav>
+
+    <section id="home" class="bg-home" >
+             <div class="bg-curv"></div>
+
+    <div class="bg-caption container">
+        <div class="row justify-content-center">
+        <div class="col-lg-12 text-right mt-5 cap">
+            <h4 class="home-title1 mr-3 ">Hello,</h4>
+            <h1 class="home-title2 my-2">I'am
+                <br>
+             <span class="sp-home font-weight-bold">Jaman !</span>
+
+            </h1>
+            <div class="caption-prg mt-5 pb-2 mb-0 text-right">
+            <p>
+                It is a long established fact that a reader will be
+                <br>
+                distracted by the readable content of a page when
+                <br>
+                looking at its layout. 
+                </p>
+            
+            </div>
+            </div>
+        
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        <div class="araaw text-center" id="section1">
+     <a href="#sect"><i class="fas fa-angle-down"></i></a> 
+        </div>
+        
+        
+        
+        
+        
+    </section>
+    
+    <section id="#about" class="about-me">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>About 
+            <span class="font-weight-bold">Me</span>
+            </h2>
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        </div>
+    <div class="row justify-content-center">
+
+        <div class="col-lg-6 ">
+        <div class="about-details mt-3 ">
+            <h3 class="font-weight-bold text-capitalize">
+            Hello ! 
+           <br>
+                 I'M Jaman
+            </h3>
+           <br>
+      <div class="social-icone">
+            <ul class="list-unstyled">
+          <li class="list-inline-item ic"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="list-inline-item ic"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item ic"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+          <li class="list-inline-item ic"><a href="#"><i class="fab fa-apple"></i></a></li>
+          <li class="list-inline-item ic"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+          <li class="list-inline-item ic"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+            </div>
+            <h5>
+            We provide the best services 
+                <br>in competition in market.
+            </h5>
+            <p class="text-muted mt-3"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look. </p>
+            
+            <p class="text-muted mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            
+            <div class="mt-5">
+                <a class="btn  btn-cv btnn " href="#">Download cv</a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-6">
+        
+        <div class="about-pic mt-3">
+            <img src="img/about_img.jpg" class="img-fluid d-block mx-auto"/>
+            </div>
+        </div>
+        </div>
+            </div>
+
+    </section>
+    
+    <section  id="#services" class="bg-services">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-h2" style="color: #F9D302;">Best  
+            
+            <span class="font-weight-bold text-title" style="color: #fff;">Services</span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        
+        
+        </div>
+        <div class="row mt-5 ">
+        <div class="col-lg-4">
+            <div class="mt-3 p-3">
+  <div class="services-icon"><a><i class="far fa-image fa-3x mb-3"></i></a></div>
+
+            <div class="media">
+                
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold text-white">User Friendly</h5>
+    <p class="mt-3 mb-0">There is now an abundance of readable dummy texts. These are usually used when a text is required purely. </p>
+  </div>
+</div>
+                 </div>  
+            </div>      
+        <div class="col-lg-4">
+            <div class="mt-3 p-3">
+      <div class="services-icon"><a><i class="far fa-image fa-3x mb-3"></i></a></div>
+
+
+            <div class="media">
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold text-white">Unlimited Color</h5>
+    <p class="mt-3 mb-0">There is now an abundance of readable dummy texts. These are usually used when a text is required purely. </p>
+  </div>
+</div>
+                            </div>
+            </div>
+        <div class="col-lg-4">
+            <div class="mt-3 p-3 d-block">
+              <div class="services-icon"><a><i class="far fa-image fa-3x mb-3"></i></a></div>
+
+            <div class="media ">
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold text-white">Media Marketing</h5>
+   <p class="mt-3 mb-0">There is now an abundance of readable dummy texts. These are usually used when a text is required purely. </p> 
+  </div>
+</div>
+                </div>
+            </div>
+
+        
+        </div>
+        <div class="row mt-3 " >
+        <div class="col-lg-4">
+            <div class="mt-3 p-3">
+                          <div class="services-icon"><a><i class="far fa-image fa-3x mb-3"></i></a></div>
+    
+            <div class="media">
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold text-white">Unlimited Wifi</h5>
+    <p class="mt-3 mb-0">There is now an abundance of readable dummy texts. These are usually used when a text is required purely. </p>
+  </div>
+</div>
+    </div>
+            </div>      
+        <div class="col-lg-4">
+            <div class="mt-3 p-3">
+                              <div class="services-icon"><a><i class="far fa-image fa-3x mb-3"></i></a></div>
+
+            <div class="media">
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold text-white">Responsive Design</h5>
+    <p class="mt-3 mb-0">There is now an abundance of readable dummy texts. These are usually used when a text is required purely. </p> 
+  </div>
+</div>
+                </div>
+            </div>
+        <div class="col-lg-4">
+            <div class="mt-3 p-3">
+                              <div class="services-icon"><a><i class="far fa-image fa-3x mb-3"></i></a></div>
+
+            <div class="media">
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold text-white">Easy to customize</h5>
+    <p class="mt-3 mb-0">There is now an abundance of readable dummy texts. These are usually used when a text is required purely. </p> 
+  </div>
+</div>
+     </div>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+    
+    </section>
+     
+     <section id="education" class="education">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>Education  
+            
+            <span class="font-weight-bold"> & Experience</span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        </div>
+    <div class="row mt-5">
+
+         <div class="col-lg-6">
+        
+        <div class=" mt-3">
+            
+            <img src="img/education.png" class="img-fluid d-block mx-auto"/>
+            </div>
+        </div>
+        <div class="col-lg-6 ">
+        
+        <div class="edu-content mt-3">
+            <div class="edu-titel">
+            <h5 class="font-weight-bold text-capitalize">Studied at Cambridge University</h5>
+                <h6 class="font-weight-bold edu-format"> jun  2010 -  july 2014</h6>
+                <p class="edu-prag text-muted mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </div>
+            </div>    
+             <div class="edu-content mt-3">
+            <div class="edu-titel">
+            <h5 class="font-weight-bold text-capitalize">Master In Computer Science</h5>
+                <h6 class="font-weight-bold edu-format"> jun 2015 - july 2017</h6>
+                <p class="edu-prag text-muted mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </div>
+            </div>  
+             <div class="edu-content mt-3">
+            <div class="edu-titel">
+            <h5 class="font-weight-bold text-capitalize">Senior UI/UX Designer</h5>
+                <h6 class="font-weight-bold edu-format"> jun 2016 - july 2018</h6>
+                <p class="edu-prag text-muted mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </div>
+            </div>  
+        
+
+            
+        
+        </div>
+        
+       
+        </div>
+            </div>
+
+    </section>   
+    
+    <section id="avalible" class="bg-avalible">
+    <div class="bg-layer"></div>
+    <div class="container">
+        <div class="row">
+        
+        <div class="col-lg-12">
+            <div class="text-center text-white">
+            <h2 class="font-weight-bold">I Am Available For Freelancer Project.</h2>
+            <p class="avalible-parg mx-auto mt-4 pt-2">It is a long established fact that a reader will be distracted by the readable content of a page<br> when looking at its layout.</p>
+            
+            </div>
+            <div class="mt-4 pt-3 text-center ">
+            
+            <a class="btnn btn-custome text-white ">Get Hire me !</a>
+            </div>
+            </div>
+        
+        </div>
+        </div>
+    </section>
+    
+    <section id="work" class="recentTabs">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>Recent  
+            
+            <span class="font-weight-bold">Work</span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+        
+        <ul class="nav nav-pills mt-5 mb-5" id="pills-tab" role="tablist">
+  <li class="nav-item item1">
+    <a class="nav-link active" id="pills-ALL-tab" data-toggle="pill" href="#pills-ALL" role="tab" aria-controls="pills-ALL" aria-selected="true">ALL</a>
+  </li>
+             <li class="nav-item item1">
+    <a class="nav-link " id="pills-SEO-tab" data-toggle="pill" href="#pills-SEO" role="tab" aria-controls="pills-SEO" aria-selected="false">SEO</a>
+  </li>
+             <li class="nav-item item1">
+    <a class="nav-link " id="pills-WEBDESIGN-tab" data-toggle="pill" href="#pills-WEBDESIGN" role="tab" aria-controls="pills-WEBDESIGN" aria-selected="false">WEBDESIGN</a>
+  </li>
+  <li class="nav-item item1">
+    <a class="nav-link" id="pills-WORK-tab" data-toggle="pill" href="#pills-WORK" role="tab" aria-controls="pills-WORK" aria-selected="false">WORK</a>
+  </li>
+  <li class="nav-item item1">
+    <a class="nav-link" id="pills-WORDPRESS-tab" data-toggle="pill" href="#pills-WORDPRESS" role="tab" aria-controls="pills-WORDPRESS" aria-selected="false">WORDPRESS</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-ALL" role="tabpanel" aria-labelledby="pills-ALL-tab">
+      
+        <div class="row">
+        <div class="col-lg-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>   
+        <div class="col-lg-4 ">
+            <div class="card card1" style="width: 18rem;">
+                            <div class="animate">
+
+  <img src="img/portfolio-2.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div></div>
+        <div class="col-lg-4 ">
+            <div class="card card1" style="width: 18rem;">
+                            <div class="animate">
+
+  <img src="img/portfolio-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div>
+         </div>   </div>
+        </div>
+     
+        <div class="row mt-4 ">
+        <div class="col-lg-4">
+            <div class="card card1" style="width: 18rem;">
+                        <div class="animate">
+
+  <img src="img/portfolio-4.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div>  </div>   
+        <div class="col-lg-4 ">
+            <div class="card card1" style="width: 18rem;">
+                             <div class="animate">
+
+  <img src="img/portfolio-5.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div></div>
+        <div class="col-lg-4 ">
+            <div class="card card1" style="width: 18rem;">
+                             <div class="animate">
+
+  <img src="img/portfolio-6.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div></div>
+
+        </div>
+        
+      
+      </div>
+  <div class="tab-pane fade" id="pills-SEO" role="tabpanel" aria-labelledby="pills-SEO-tab">
+    
+     <div class="row justify-content-start">
+      
+        <div class="col-6 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-2.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>
+       <div class="col-6 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-3.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>
+
+        </div>
+    
+     </div>
+  <div class="tab-pane fade" id="pills-WEBDESIGN" role="tabpanel" aria-labelledby="pills-WEBDESIGN-tab">
+      
+      
+      <div class="row">
+        <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+       <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-2.jpg" class="card-img-top" alt="...">
+ <div class="card-body  card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+       <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-4.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+
+        </div>
+        
+          
+        <div class="row mt-4 ">
+    
+       <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-5.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+       <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-6.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div> 
+        </div>
+      
+      
+      
+      </div>
+      <div class="tab-pane fade" id="pills-WORK" role="tabpanel" aria-labelledby="pills-WORK-tab">
+    
+    
+    <div class="row">
+       <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-2.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>   
+            
+            
+        <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-4.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+        <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-5.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+
+        </div>
+        
+          
+        <div class="row mt-4">
+        
+        <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-6.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> 
+            </div>  
+
+        </div>
+    
+    
+    </div>
+  <div class="tab-pane fade" id="pills-WORDPRESS" role="tabpanel" aria-labelledby="pills-WORDPRESS-tab">
+    
+    
+    
+    
+      <div class="row">
+        <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                     <div class="animate">
+
+  <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+ <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div> </div> 
+            </div>    
+        <div class="col-4 ">
+            <div class="card card1" style="width: 18rem;">
+                            <div class="animate">
+
+  <img src="img/portfolio-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div></div> </div>
+        <div class="col-4 ">
+            <div class="card card1" style="width: 18rem;">
+                                <div class="animate">
+
+  <img src="img/portfolio-4.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div>
+            </div> </div>
+
+        </div>
+         
+        <div class="row mt-4">
+        <div class="col-4 ">
+            <div class="card card1" style="width: 18rem;">
+                              <div class="animate">
+
+  <img src="img/portfolio-5.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+</div>
+            </div> 
+            </div>    
+        <div class="col-4 ">
+    <div class="card card1" style="width: 18rem;">
+                    <div class="animate">
+
+  <img src="img/portfolio-6.jpg" class="card-img-top" alt="...">
+  <div class="card-body card-body1 text-center">
+    <h4 class="card-text font-weight-bold">Open Imagination</h4>
+      <p class="card-text text-muted mb-0">Media, Icons</p>
+  </div>
+  </div>
+            </div>
+            </div>
+  
+
+        </div>
+        
+
+    
+    </div>
+
+</div>
+        </div>
+    </div>
+    
+    </section>
+    
+    
+    <section class="client">
+    
+    <div class="container ">
+        
+         <div class="row">
+        <div class="col-lg-12 text-center ">
+            <h2 style="color: #F9D302;">Our 
+            
+            <span class="font-weight-bold text-white">Client's </span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        </div>
+        
+        
+        <div class="row justify-content-center">
+        <div class="col-9 ">
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+        <div class=" d-block text-center mb-5 mt-5">
+      <img src="img/client-1.jpg" class="" alt="...">
+        </div>
+        <div class="mt-5 " style="color:  #e1e1e1;">
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et.”</p>
+            <ol class="olTab list-inline">
+            <li><i class="fas fa-star star"></i></li>
+            <li><i class="fas fa-star star"></i></li>
+            <li><i class="fas fa-star star "></i></li>
+         <li><i class="fas fa-star "></i></li>
+        <li><i class="fas fa-star "></i></li>
+
+            </ol>
+        <h3>Vinayak Rajguru</h3>
+        <span>Frontend Developer</span>
+        </div>
+    </div>
+    <div class="carousel-item">
+         <div class=" d-block text-center mb-5 mt-5">
+      <img src="img/client-2.jpg" class="" alt="...">
+        </div>  
+                <div class="mt-5 text-white">
+
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et.”</p>
+                      <ol class="olTab list-inline">
+            <li><i class="fas fa-star star"></i></li>
+            <li><i class="fas fa-star star"></i></li>
+            <li><i class="fas fa-star star "></i></li>
+         <li><i class="fas fa-star "></i></li>
+        <li><i class="fas fa-star "></i></li>
+
+            </ol>
+        <h3>Vinayak Rajguru</h3>
+        <span>Frontend Developer</span>
+</div>
+    </div>
+    <div class="carousel-item">
+         <div class=" d-block text-center mb-5 mt-5">
+      <img src="img/client-3.jpg" class=" " alt="...">
+        </div> 
+                <div class="mt-5 text-white">
+
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et.”</p>
+                      <ol class="olTab list-inline">
+            <li><i class="fas fa-star star"></i></li>
+            <li><i class="fas fa-star star"></i></li>
+            <li><i class="fas fa-star star "></i></li>
+         <li><i class="fas fa-star "></i></li>
+        <li><i class="fas fa-star "></i></li>
+
+            </ol>
+        <h3>Vinayak Rajguru</h3>
+        <span>Frontend Developer</span>
+                    </div>
+    </div>
+     <div class="mt-5">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+                    </div>
+  </div>
+       
+ 
+</div>
+            
+            
+            </div>
+        
+        </div>
+        
+        </div>
+    
+    
+    
+    
+    </section>
+    
+    <section class="Blog ">
+    <div class="container justify-content-center">
+        
+             <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-h2" style="color: #F9D302;">Our  
+            
+            <span class="font-weight-bold text-title" style="color: #000;">Blog</span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        
+        
+        </div>
+        <div class="row mt-5 justify-content-center">
+
+        <div class="col-lg-4 col-md-12">
+
+            <div class="card" style="width: 22rem;">
+  <img src="img/blog-1.jpg" class="card-img-top img-fluid d-block mx-auto" alt="...">
+                
+     <span class="badge badge-pill badg text-left mt-4 ml-3  ">5 SEP</span>
+       
+                
+  <div class="card-body">
+    <h5 class="card-title font-weight-bold">Branding Do You Know.</h5>
+    <p class="card-text text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration .</p>
+<h6 class="text-muted">By John Doe</h6>
+  </div>
+</div>
+            
+            
+            </div>
+         <div class="col-lg-4 col-md-12">
+
+            <div class="card" style="width: 22rem;">
+  <img src="img/blog-2.jpg" class="card-img-top img-fluid d-block mx-auto" alt="...">
+                
+     <span class="badge badge-pill badg text-left mt-4 ml-3  ">7 SEP</span>
+       
+                
+  <div class="card-body">
+    <h5 class="card-title font-weight-bold">Branding Do You Know.</h5>
+    <p class="card-text text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration .</p>
+<h6 class="text-muted">By John Doe</h6>
+  </div>
+</div>
+            
+            
+            </div>
+         <div class="col-lg-4 col-md-12">
+
+            <div class="card" style="width: 22rem;">
+  <img src="img/blog-3.jpg" class="card-img-top img-fluid d-block mx-auto" alt="...">
+                
+     <span class="badge badge-pill badg text-left mt-4 ml-3  ">SEP 8</span>
+       
+                
+  <div class="card-body">
+    <h5 class="card-title font-weight-bold">Branding Do You Know.</h5>
+    <p class="card-text text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration .</p>
+<h6 class="text-muted">By John Doe</h6>
+  </div>
+</div>
+            
+            
+            </div>
+        
+        
+        </div>
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </section>
+    
+    <section class="Trusted ">
+    <div class="container">
+         <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-h2" style="color: #F9D302;">Trusted  
+            
+            <span class="font-weight-bold text-title" style="color: #fff;">People</span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        
+        
+        </div>
+        
+        <div class="row justify-content-center">
+        
+        <div class="col-lg-2 col-md-12">
+            <img src="img/1.png"/>
+            
+            </div>
+        <div class="col-lg-2 col-md-12">
+            <img src="img/2.png"/>
+            
+            </div><div class="col-lg-2 col-md-12">
+            <img src="img/3.png"/>
+            
+            </div><div class="col-lg-2 col-md-12">
+            <img src="img/4.png"/>
+            
+            </div><div class="col-lg-2 col-md-12">
+            <img src="img/5.png"/>
+            
+            </div><div class="col-lg-2 col-md-12">
+            <img src="img/6.png"/>
+            
+            </div>
+        </div>
+        
+        </div>
+    
+    </section>
+    
+    
+    <section class="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-h2" style="color: #000;">Contact  
+            
+            <span class="font-weight-bold text-title" style="color: #000;">Us </span>
+            </h2>
+            
+            </div>
+        <div class="line text-center my-auto">
+            <img src="img/header_dash.png" class="img-fluid mx-auto d-block"/>
+            </div>
+        
+        
+        </div>
+        
+        <div class="row">
+        <div class="col-lg-3 d-block ">
+            <div class="media ">
+  <i class="fas fa-map-marker-alt mr-3 fa-lg"  style="color: #F9D302;"></i>
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold">Address</h5>
+      <span class="text-muted">9592 Proctor St.<br> 
+Front Royal, VA 22630.</span>
+    
+  </div>
+</div>
+            <div class="media mt-5">
+  <i class="fas fa-envelope-open mr-3 fa-lg "  style="color: #F9D302;"></i>
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold">Mail</h5>
+      <span class="text-muted">Support@mail.com</span>
+   
+  </div>
+</div>
+            <div class="media mt-5">
+  <i class="fas fa-mobile mr-3 fa-lg" style="color: #F9D302;"></i>
+  <div class="media-body">
+    <h5 class="mt-0 font-weight-bold">Call</h5>
+      <span class="text-muted">
++773-804-9578,<br> 
++610-978-2889. 
+.</span>
+    
+  </div>
+</div>
+            </div>
+            
+            <div class="col-lg-9">
+            <form>
+  <div class="form-row">
+     
+    <div class="form-group col-md-6">
+      <label for="validationDefault01">First name</label>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="your name" value="" required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="your Email" required>
+    </div>
+   
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Your Subject.." required>
+  </div>
+  
+  <div class="form-row">
+    
+     <div class="form-group col-lg-12">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+  </div>
+   
+  </div>
+  
+  <button type="submit" class="btn btnn">Send Message </button>
+</form>
+            </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        </div>
+    
+    
+    </section>
+    
+    <section class="footer">
+    
+    <div class="container">
+        <div class="row">
+        
+        <div class="col-lg-12">
+            
+            <div class="text-center">
+            <img src="img/logo.png" style="color: #fff;" />
+                
+            </div>
+            
+            <div class="icon text-center  ">
+            <ul class=" mt-5  ">
+                <li><a><i class="fab fa-facebook-f "></i></a></li>
+                <li><a><i class="fab fa-google-plus "></i></a></li>
+                <li><a><i class="fab fa-linkedin-in "></i></a></li>
+                <li><a><i class="fab fa-pinterest-p "></i></a></li>
+                <li><a><i class="fab fa-twitter"></i></a></li>
+
+                </ul>
+            </div>
+            
+            
+            
+            </div>
+        
+        </div>
+        
+        </div>
+    
+    </section>
+    
+   
+    
+    
+    
+    
+    
+<script src="js/owl.carousel.min.js"></script>    
+    <script src="js/wow.min.js"></script>
+        <script src="js/fit.js"></script>
+        <script src="js/Ssw.js"></script>
+
+
+<script>
+$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+    
+    
+    
+    </script>
+
+  
+    </body>
+
+
+
+
+
+</html>
